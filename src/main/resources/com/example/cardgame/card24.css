@@ -1,0 +1,60 @@
+.root-pane {
+    -fx-background-color: #f1f1f1;
+    -fx-font-family: "Times New Roman", serif;
+}
+
+.cards-row {
+    -fx-padding: 2 0 0 0;
+}
+
+.card-image {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.2, 0, 1);
+    -fx-border-color: #333333;
+    -fx-border-width: 1;
+}
+
+.values-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #213042;
+    -fx-padding: 0 0 2 0;
+}
+
+.top-field,
+.expression-field {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-background-color: #f6f6f6;
+    -fx-border-color: #8fa0b1;
+    -fx-border-width: 1;
+    -fx-padding: 6 10;
+}
+
+.top-field {
+    -fx-pref-width: 270;
+}
+
+.expression-field {
+    -fx-pref-width: 330;
+}
+
+.action-button {
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1f2f40;
+    -fx-background-color: linear-gradient(to bottom, #f7fafc, #c2d2df);
+    -fx-border-color: #8fa0b1;
+    -fx-border-width: 1;
+    -fx-padding: 8 18;
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #b8c9d6);
+}
+
+.entry-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1f2f40;
+}
